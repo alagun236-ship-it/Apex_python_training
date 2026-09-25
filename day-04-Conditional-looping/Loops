@@ -1,0 +1,20 @@
+While Loop 
+
+count = 0
+while (count < 9):
+      print ('The count is:', count)
+      count = count + 1
+print ("Good bye!")
+
+count = 0
+while count < 7:
+      print (count, " is less than 7")
+      count = count + 1
+else:
+      print (“Loop End")
+
+For Loop
+
+for var in list(range(5)):
+        print (var)
+
