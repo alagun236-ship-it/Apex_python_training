@@ -1,0 +1,131 @@
+Problem statement 1 :
+
+students = ["Arun", "Bala", "Kavin"]
+
+new_student = "Ravi"
+
+students.append(new_student)
+
+print("Updated Student List:", students)
+
+Problem statement 2 :
+
+existing = ["Python", "Java"]
+
+new = ["MySQL", "HTML", "CSS"]
+
+existing.extend(new)
+
+print("Updated Subject List:", existing)
+
+Problem statement 3 :
+
+students = ["Arun", "Bala", "Kavin", "Ravi"]
+
+new_student = "Mohan"
+position = 2
+
+students.insert(position, new_student)
+
+print("Updated Student List:", students)
+
+Problem statement 4 :
+
+cart = ["Laptop", "Mouse", "Keyboard", "Monitor"]
+
+remove = "Keyboard"
+
+cart.remove(remove)
+
+print("Updated Cart:", cart)
+
+Problem statement 5 :
+
+courses = ["Python", "Java", "SQL", "Spring"]
+
+removed_course = courses.pop()
+
+print("Removed Course:", removed_course)
+print("Updated Course List:", courses)
+
+Problem statement 6 :
+
+students = ["Arun", "Bala", "Kavin", "Ravi"]
+
+search_student = "Kavin"
+
+position = students.index(search_student)
+
+print("Student:", search_student)
+print("Position:", position)
+
+Problem statement 7 :
+
+marks = [80, 75, 90, 80, 65, 80]
+
+search_mark = 80
+
+count = marks.count(search_mark)
+
+print("Search Mark:", search_mark)
+print("Number of Occurrences:", count)
+
+Problem statement 8 :
+
+marks = [78, 92, 65, 88, 70]
+
+print("Before Sorting:", marks)
+
+marks.sort()
+
+print("After Sorting:", marks)
+
+Problem statement 9 :
+
+students = ["Arun", "Bala", "Kavin", "Ravi"]
+
+print("Before Reversing:", students)
+
+students.reverse()
+
+print("After Reversing:", students)
+
+Problem statement 10 :
+
+students = ["Arun", "Bala", "Kavin"]
+
+backup = students.copy()
+
+new_student = "Ravi"
+backup.append(new_student)
+
+print("Original List:", students)
+print("Copied List:", backup)
+
+Problem statement 11:
+
+cart = ["Laptop", "Mouse", "Keyboard"]
+
+print("Before Clearing:", cart)
+
+cart.clear()
+
+print("After Clearing:", cart)
+
+Problem statement 12 :
+
+marks = [65, 78, 92, 56, 88]
+
+total = sum(marks)
+highest = max(marks)
+lowest = min(marks)
+number_of_students = len(marks)
+average = sum(marks) / len(marks)
+
+print("Total Marks:", total)
+print("Highest Mark:", highest)
+print("Lowest Mark:", lowest)
+print("Number of Students:", number_of_students)
+print("Average Mark:", average)
+
+
